@@ -1,6 +1,5 @@
 import { getAuth } from "@clerk/nextjs/server";
 
-import type { NextApiRequest, NextApiResponse } from 'next'
 import { NextRequest, NextResponse } from "next/server";
 export const runtime = 'edge';
 
